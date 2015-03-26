@@ -12,13 +12,13 @@ public class Zone {
       return this.nomZone;
    }
    
-   private Real tarif;
+   private float tarif;
    
-   public void setTarif(Real value) {
+   public void setTarif(float value) {
       this.tarif = value;
    }
    
-   public Real getTarif() {
+   public float getTarif() {
       return this.tarif;
    }
    

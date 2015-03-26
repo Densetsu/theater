@@ -1,3 +1,4 @@
+import java.util.Date;
 import java.util.Set;
 import java.util.HashSet;
 
@@ -22,23 +23,23 @@ public class Vente {
       return this.numTicket;
    }
    
-   private DateTime date;
+   private Date date;
    
-   public void setDate(DateTime value) {
+   public void setDate(Date value) {
       this.date = value;
    }
    
-   public DateTime getDate() {
+   public Date getDate() {
       return this.date;
    }
    
-   private Real prixTotal;
+   private float prixTotal;
    
-   public void setPrixTotal(Real value) {
+   public void setPrixTotal(float value) {
       this.prixTotal = value;
    }
    
-   public Real getPrixTotal() {
+   public float getPrixTotal() {
       return this.prixTotal;
    }
    

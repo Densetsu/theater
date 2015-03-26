@@ -1,12 +1,14 @@
+import java.util.Date;
+
 
 public class Horaire {
-   private DateTime date;
+   private Date date;
    
-   public void setDate(DateTime value) {
+   public void setDate(Date value) {
       this.date = value;
    }
    
-   public DateTime getDate() {
+   public Date getDate() {
       return this.date;
    }
    
