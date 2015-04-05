@@ -10,8 +10,20 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>com.dell.toadext.editors.project.ToadextProjectBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>com.dell.toadext.ToadextNature</nature>
 	</natures>
+	<variableList>
+		<variable>
+			<name>jdbc</name>
+			<value>file:/C:/app/Subaru/product/11.2.0/dbhome_1/jdbc/lib/ojdbc6.jar</value>
+		</variable>
+	</variableList>
 </projectDescription>
